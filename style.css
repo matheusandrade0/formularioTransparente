@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-items: center;
+    background: linear-gradient(45deg, #0B6EC8, #00FF99);
+}
+
+.principal{
+    position: relative;
+}
+
+
+.cadastro{
+    position: relative;
+    /*margin-right: 1000px;
+    right: 650px;*/
+   
+    background:rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+
+    backdrop-filter: blur(120px);
+    box-shadow: 0 26px 42 solid rgba(255, 255, 255, 0.1);
+    font-family: "Poppins", sans-serif;
+    
+    padding: 60px;
+    width: min-content;
+
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+input, button{
+    position: relative;
+    left: -50px;
+    font-size: 16px;
+    display: block;
+    box-sizing: border-box;
+    width: 165%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 13px 21px rgba(255, 255, 255, 0.05);
+}
+
+input:focus{
+    outline: none;
+}
+button{
+    cursor: pointer;
+    background: linear-gradient(45deg, #0B6EC8, #00FF99);
+    color: white;
+    transition: 0.9s;
+}
+button:hover{
+    background: #12c2e9;
+
+}
+input::placeholder{
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.568); 
+}
+.esqueceu{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
